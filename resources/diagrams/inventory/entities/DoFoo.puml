@@ -1,0 +1,8 @@
+@startuml DoFoo
+
+entity DoFoo {
+  commandType: CommandType<doFoo>
+  inputData: S3Object
+}
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml Example Entity Diagram
+
+!define ENTITIES https://raw.githubusercontent.com/matthias-margush/puml-test/main/resources/diagrams
+
+!include ENTITIES/styles.puml
+
+frame "Step 1: Incoming Command" {
+    !include ENTITIES/inventory/entities/Command.puml
+    !include ENTITIES/inventory/entities/CommandType.puml
+    !include ENTITIES/inventory/entities/DoFoo.puml
+    !include ENTITIES/inventory/relationships/Command-DoFoo.puml
+    !include ENTITIES/inventory/relationships/DoFoo-CommandType.puml
+}
+
+frame "Step 2: Event Emitted" {
+    !include ENTITIES/inventory/entities/Event.puml
+    !include ENTITIES/inventory/entities/EventType.puml
+    !include ENTITIES/inventory/entities/FooCompleted.puml
+    !include ENTITIES/inventory/relationships/Event-FooCompleted.puml
+    !include ENTITIES/inventory/relationships/FooCompleted-EventType.puml
+}
+
+!include ENTITIES/inventory/entities/S3Object.puml
+!include ENTITIES/inventory/relationships/DoFoo-S3Object.puml
+!include ENTITIES/inventory/relationships/FooCompleted-S3Object.puml
+
+@enduml

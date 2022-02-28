@@ -1,0 +1,10 @@
+@startuml Command
+
+entity Command {
+  id: ID
+  at: Timestamp
+  by: User
+  commandType: CommandType
+}
+
+@enduml

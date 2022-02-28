@@ -1,0 +1,9 @@
+@startuml CommandType
+
+enum CommandType <<enumeration>> {
+  doFoo
+  doBar
+  doBaz
+}
+
+@enduml

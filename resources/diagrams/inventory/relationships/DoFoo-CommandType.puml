@@ -1,0 +1,5 @@
+@startuml DoFoo / CommandType Relationship
+
+DoFoo .. CommandType: commandType<doFoo>
+
+@enduml

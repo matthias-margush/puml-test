@@ -1,0 +1,5 @@
+@startuml Command / DoFoo Relationship
+
+Command <|-- DoFoo
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml Event
+
+entity Event {
+  id: ID
+  at: Timestamp
+  by: User
+  eventType: EventType
+}
+
+@enduml

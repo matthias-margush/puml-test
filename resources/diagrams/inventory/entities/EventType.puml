@@ -1,0 +1,9 @@
+@startuml EventType
+
+enum EventType <<enumeration>> {
+  fooCompleted
+  barCompleted
+  bazCompleted
+}
+
+@enduml

@@ -1,0 +1,5 @@
+@startuml DoFoo / S3Object Relationship
+
+DoFoo -- S3Object : inputData
+
+@enduml

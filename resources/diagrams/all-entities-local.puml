@@ -1,0 +1,21 @@
+@startuml full entity diagram
+
+!include styles.puml
+
+!include inventory/entities/Command.puml
+!include inventory/entities/CommandType.puml
+!include inventory/entities/Event.puml
+!include inventory/entities/EventType.puml
+!include inventory/entities/S3Object.puml
+
+!include inventory/entities/DoFoo.puml
+!include inventory/relationships/Command-DoFoo.puml
+!include inventory/relationships/DoFoo-CommandType.puml
+!include inventory/relationships/DoFoo-S3Object.puml
+
+!include inventory/entities/FooCompleted.puml
+!include inventory/relationships/Event-FooCompleted.puml
+!include inventory/relationships/FooCompleted-EventType.puml
+!include inventory/relationships/FooCompleted-S3Object.puml
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml S3Object
+
+entity S3Object {
+  bucket
+  key
+  etag
+  versionId
+}
+
+@enduml

@@ -1,0 +1,5 @@
+@startuml FooCompleted / EventType Relationship
+
+FooCompleted .. EventType: eventType<fooCompleted>
+
+@enduml

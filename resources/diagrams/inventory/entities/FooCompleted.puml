@@ -1,0 +1,8 @@
+@startuml FooCompleted Entity
+
+entity FooCompleted {
+    eventType: FooCompleted
+    outputData: S3Object
+}
+
+@enduml

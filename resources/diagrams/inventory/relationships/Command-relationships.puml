@@ -1,0 +1,6 @@
+@startuml Command relationships
+
+' relationships
+Command .. CommandType: commandType
+
+@enduml

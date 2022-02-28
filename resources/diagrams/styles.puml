@@ -1,0 +1,30 @@
+@startuml styles
+
+' Styles
+skinparam {
+  BackgroundColor transparent
+  Margin 20
+  Monochrome false
+  Padding 2
+  Shadowing false
+  ArrowColor black
+  NoteBackgroundColor PapayaWhip
+  NoteShadowing true
+}
+
+skinparam package {
+  BorderColor #CCCCCC
+}
+
+skinparam class {
+  BackgroundColor white
+  HeaderBackgroundColor #FEFFE1
+  BorderColor black
+}
+
+allow_mixing
+hide footbox
+hide circle
+hide empty members
+
+@enduml

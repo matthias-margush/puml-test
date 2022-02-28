@@ -1,0 +1,5 @@
+@startuml Event / EventType Relationship
+
+Event .. EventType: eventType
+
+@enduml

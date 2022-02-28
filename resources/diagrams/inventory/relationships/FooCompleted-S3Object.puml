@@ -1,0 +1,5 @@
+@startuml FooCompleted / S3Object Relationship
+
+FooCompleted -- S3Object : outputData
+
+@enduml
